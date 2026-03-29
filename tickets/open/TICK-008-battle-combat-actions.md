@@ -100,7 +100,7 @@ Backend reads current HP from `characters` table, applies delta, persists, broad
 - [x] `set_condition` handler — updates `battle_states.conditions`, broadcasts `condition_changed`; DM-only
 - [x] `conditions` stored as JSONB in `battle_states`: `%{"char-uuid" => ["poisoned", "prone"]}`
 - [x] Migration: `20260326125408_add_conditions_to_battle_states`
-- [ ] swagger.json: document new channel events in description
+- [x] swagger.json → moved to TICK-010
 
 ## Web
 - [ ] Combat log panel in BattlePage sidebar — shows dice_rolled, hp_updated, condition_changed events (chronological, newest on top)

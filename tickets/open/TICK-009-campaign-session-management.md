@@ -96,7 +96,7 @@ Sent when a client leaves the channel.
 - [x] `DELETE /api/v1/campaigns/:id/players/:player_id` — already existed
 - [x] `POST /api/v1/campaigns/:id/end_battle` — ends active battle, archives map, broadcasts battle_ended
 - [x] Broadcast `player_joined` / `player_left` in SessionChannel on join/leave (terminate/2)
-- [ ] swagger.json updated (new endpoints + player_joined/left events)
+- [x] swagger.json → moved to TICK-010
 
 ## Web
 - [ ] Players panel in BattlePage sidebar — shows online players (green dot), DM can click to kick

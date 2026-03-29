@@ -33,7 +33,7 @@ These are frequently updated during a session.
 - [x] Spells tab: spell slot tracker per level — local SpellSlot SwiftData model + SpellSlotsView UI
 - [x] Rest logic: long rest resets all slots, short rest resets Warlock Pact Magic
 
-Note: SpellSlots already work locally. Hit dice and conditions blocked by backend boxes.
+Note: SpellSlots already work locally. Backend fields are ready — iOS needs to integrate.
 
 ## Web
 - N/A (battle map shows tokens, not full character sheet)
