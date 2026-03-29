@@ -27,9 +27,9 @@ These are frequently updated during a session.
 - [x] Swagger: update Character schema with examples
 
 ## iOS
-- [ ] `CharacterDTO`: add `hitDice`, `conditions` (spellSlots local model exists, needs backend field sync)
-- [ ] Combat tab: hit dice tracker (CS-12, needs backend `hit_dice` field)
-- [ ] Combat tab: conditions picker (CS-11, needs backend `conditions` field)
+- [x] `CharacterDTO`: add `hitDice`, `conditions` (spellSlots local model exists, needs backend field sync)
+- [x] Combat tab: hit dice tracker (CS-12, needs backend `hit_dice` field)
+- [x] Combat tab: conditions picker (CS-11, needs backend `conditions` field)
 - [x] Spells tab: spell slot tracker per level — local SpellSlot SwiftData model + SpellSlotsView UI
 - [x] Rest logic: long rest resets all slots, short rest resets Warlock Pact Magic
 

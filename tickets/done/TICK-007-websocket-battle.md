@@ -40,11 +40,11 @@ fog_updated   %{cells: [{x, y, revealed: true}]}
 - [x] Receive token_moved, fog_updated — update canvas via battleStore
 
 ## iOS (Players)
-- [ ] Add SwiftPhoenixClient via SPM + implement SessionChannel base (connect, join, leave, reconnect)
-- [ ] Handle map_loaded — show battle map view (render grid + tokens + fog)
-- [ ] Handle token_moved — animate token position change
-- [ ] Handle fog_updated — reveal/hide cells on map
-- [ ] Players are read-only: cannot send move_token / reveal_fog
+- [x] Add SwiftPhoenixClient via SPM + implement SessionChannel base (connect, join, leave, reconnect)
+- [x] Handle map_loaded — show battle map view (render grid + tokens + fog)
+- [x] Handle token_moved — animate token position change
+- [x] Handle fog_updated — reveal/hide cells on map
+- [x] Players are read-only: cannot send move_token / reveal_fog
 
 ## Depends on
 - TICK-006 must be complete

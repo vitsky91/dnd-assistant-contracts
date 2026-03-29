@@ -19,8 +19,8 @@ during character creation.
 - [x] Swagger: added Background schema + updated response schemas
 
 ## iOS
-- [ ] `BackgroundDTO`: add `description: String?`
-- [ ] `Step3_BackgroundView`: show description below background name (always visible, not just on select)
+- [x] `BackgroundDTO`: add `description: String?`
+- [x] `Step3_BackgroundView`: show description below background name (always visible, not just on select)
 
 ## Web
 - N/A

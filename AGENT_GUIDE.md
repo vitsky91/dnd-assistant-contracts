@@ -33,23 +33,25 @@ _contracts/ROADMAP.md
 Understand where the current sprint is and what phase we're in.
 
 ### 3. Find your ticket
-If the user asks for a feature — find the existing ticket or create one.
-Never start implementing without a ticket.
+If the user asks for a feature — find the existing ticket that covers it.
+**Do NOT create new tickets.** Only the PM agent can create tickets.
+If no ticket exists — ask the user to request one from the PM.
 
 ---
 
 ## During Work
 
-- **Check off boxes as you go** — not at the end. If you finish a migration, check it immediately.
-- **Do not check boxes you didn't implement** — iOS agent should not check backend boxes.
-- **If you discover the ticket is wrong** — update the Description or Field specs inside the ticket, add a comment explaining why.
+- **Check off YOUR project's boxes as you go** — not at the end. If you finish a task, check it immediately.
+- **ONLY check boxes under YOUR project section** — iOS agent checks ONLY `## iOS` boxes, Web agent checks ONLY `## Web` boxes, etc. Never touch another project's checkboxes.
+- **Do NOT edit ticket text** (title, description, field specs, priorities). If you find an error, add an AGENT COMMENT at the bottom of the ticket (see GOVERNANCE.md for format).
+- **Do NOT read or act on tasks from other project sections** — if you are the iOS agent, ignore `## Backend` and `## Web` sections entirely.
 
 ---
 
 ## At the End of Every Session
 
-1. All your boxes are checked in the relevant ticket
-2. If all boxes across ALL projects are done → move the file from `open/` to `done/`
+1. All YOUR project's boxes are checked in the relevant ticket
+2. Do NOT move tickets to `done/` — only PM does that
 3. Code is committed and pushed
 4. If you changed an endpoint → `swagger.json` is updated
 5. If you made an architectural decision → created `decisions/ADR-XXX.md`

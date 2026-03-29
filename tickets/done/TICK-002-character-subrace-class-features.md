@@ -22,8 +22,8 @@ Two fields missing from Character schema that iOS needs for identity display and
 - [x] `CharacterRequestBody`: sends `subrace` and `class_features` to server
 - [x] `CharacterDTO.apply(to:)` and `toNewCharacter()` merge both fields correctly
 - [x] Character creation: `classFeatures` already populated from class data at wizard step
-- [ ] Show `subrace` in character header / identity section
-- [ ] Features tab: display `classFeatures` from server (data flows in, needs UI update)
+- [x] Show `subrace` in character header / identity section
+- [x] Features tab: display `classFeatures` from server (data flows in, needs UI update)
 
 ## Web
 - N/A

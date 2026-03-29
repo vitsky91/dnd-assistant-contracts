@@ -105,5 +105,5 @@ Sent when a client leaves the channel.
 - [ ] Handle `battle_ended` — show "Battle ended" overlay, Back button
 
 ## iOS
-- [ ] Handle `player_joined` / `player_left` — show toast notification
-- [ ] Handle `battle_ended` — dismiss battle map view, return to campaign lobby
+- [x] Handle `player_joined` / `player_left` — show toast notification
+- [x] Handle `battle_ended` — dismiss battle map view, return to campaign lobby

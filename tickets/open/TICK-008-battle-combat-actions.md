@@ -109,7 +109,7 @@ Backend reads current HP from `characters` table, applies delta, persists, broad
 - [ ] Condition icons on tokens (tiny skull / eye-slash / etc.)
 
 ## iOS
-- [ ] Receive `dice_rolled` → show roll result banner (dice emoji + value, fades after 3s)
-- [ ] Receive `hp_updated` → update HP bar on character token
-- [ ] Receive `condition_changed` → show condition icon on token
-- [ ] Player can send `roll_dice` on their turn (roll button in HUD)
+- [x] Receive `dice_rolled` → show roll result banner (dice emoji + value, fades after 3s)
+- [x] Receive `hp_updated` → update HP bar on character token
+- [x] Receive `condition_changed` → show condition icon on token
+- [x] Player can send `roll_dice` on their turn (roll button in HUD)

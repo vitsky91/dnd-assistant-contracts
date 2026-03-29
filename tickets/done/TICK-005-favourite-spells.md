@@ -40,9 +40,9 @@ Response shape (GET + POST):
 - [x] Swagger updated (FavouriteSpell schema + endpoints)
 
 ## iOS
-- [ ] `FavouriteSpellDTO`: `id: String`, `spellId: String`, `spell: SpellDTO`
-- [ ] `GET /spells/favorites` on app launch — store in SwiftData
-- [ ] Toggle heart button → POST / DELETE sync
+- [x] `FavouriteSpellDTO`: `id: String`, `spellId: String`, `spell: SpellDTO`
+- [x] `GET /spells/favorites` on app launch — store in SwiftData
+- [x] Toggle heart button → POST / DELETE sync
 - [x] Toggle heart button in SpellListView and SpellDetailView (local SwiftData only)
 - [x] Favourites filter in SpellListView (`showFavouritesOnly` toggle)
 - [x] Offline: FavouriteSpell SwiftData model persists locally
